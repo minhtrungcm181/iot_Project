@@ -1,0 +1,10 @@
+15:57:06 **** Incremental Build of configuration Debug for project Iot_Sys ****
+make -j8 all 
+arm-none-eabi-size   Iot_Sys.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17836	     44	   1900	  19780	   4d44	Iot_Sys.elf
+Finished building: default.size.stdout
+ 
+
+15:57:07 Build Finished. 0 errors, 0 warnings. (took 251ms)
+

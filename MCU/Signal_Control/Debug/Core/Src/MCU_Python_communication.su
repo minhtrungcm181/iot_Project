@@ -1,0 +1,3 @@
+../Core/Src/MCU_Python_communication.c:48:14:Identify_request	16	static
+../Core/Src/MCU_Python_communication.c:62:6:fsm	8	static
+../Core/Src/MCU_Python_communication.c:141:6:read_light_sensor	4	static

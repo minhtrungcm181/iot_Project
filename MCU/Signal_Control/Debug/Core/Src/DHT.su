@@ -1,0 +1,4 @@
+../Core/Src/DHT.c:21:9:DHT_ready	4	static
+../Core/Src/DHT.c:26:10:get_data_DHT	4	static
+../Core/Src/DHT.c:31:6:request_DHT	8	static
+../Core/Src/DHT.c:38:9:record_data_DHT	24	static

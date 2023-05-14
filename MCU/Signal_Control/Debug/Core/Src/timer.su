@@ -1,0 +1,4 @@
+../Core/Src/timer.c:14:6:SW_TIM_Init	16	static
+../Core/Src/timer.c:21:6:setTimer	16	static
+../Core/Src/timer.c:27:5:get_flag	16	static
+../Core/Src/timer.c:32:6:timer_run	16	static

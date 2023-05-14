@@ -1,0 +1,25 @@
+/*
+ * physical_device.c
+ *
+ *  Created on: May 3, 2023
+ *      Author: Trand
+ */
+
+#include "physical_device.h"
+
+GPIO_PinState state = RESET;
+
+uint8_t* get_sendback(){
+	if (state == RESET)
+		return "!0#";
+	else
+		return "!1#";
+}
+void set_state(uint8_t s){
+	if (s == '0')
+		state = RESET;
+	else
+		state = SET;
+	HAL_GPIO_WritePin(GPIOB, GPIO_PIN_14, state);
+}
+

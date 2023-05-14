@@ -1,0 +1,378 @@
+2023-03-31 18:26:09,580 [INFO] MainUpdater:2854 - connection check result : 10
+2023-03-31 18:26:09,924 [INFO] MainUpdater:2854 - connection check result : 10
+2023-03-31 18:26:09,970 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-03-31 18:26:09,970 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.80
+2023-03-31 18:26:10,017 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2023-03-31 18:26:10,017 [INFO] ThirdParty:873 - entering critical section [close project]
+2023-03-31 18:26:10,017 [INFO] ThirdParty:883 - exiting critical section [close project]
+2023-03-31 18:26:10,017 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-03-31 18:26:10,033 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 325021456 Bytes (730857472)
+2023-03-31 18:26:10,033 [INFO] MicroXplorer:468 - Change Database Path : 
+2023-03-31 18:26:10,033 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.80
+2023-03-31 18:26:10,033 [INFO] OpenFileManager:308 - Change cursor
+2023-03-31 18:26:10,064 [INFO] RulesReader:64 - Compatibility file has been processed (293 Rules)
+2023-03-31 18:26:10,080 [INFO] Mcu:1937 - Initializing MCU STM32F103R(8-B)Tx STM32F103RBTx STM32F103RBT6
+2023-03-31 18:26:10,752 [INFO] Context:659 - Trying to add GPIOservice into a context  which must be forbidden
+2023-03-31 18:26:10,861 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2023-03-31 18:26:10,861 [INFO] RtosManager:555 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2023-03-31 18:26:10,861 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2023-03-31 18:26:10,861 [INFO] RtosManager:555 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2023-03-31 18:26:10,861 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,877 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2023-03-31 18:26:10,939 [INFO] ThirdPartyModel:298 - Start build external matchings
+2023-03-31 18:26:11,127 [INFO] ThirdPartyModel:316 - End build external matchings
+2023-03-31 18:26:11,798 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 458623792 Bytes (730857472)
+2023-03-31 18:26:11,861 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2023-03-31 18:26:11,861 [INFO] ThirdParty:835 - entering critical section [change project]
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 1.1.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 6.0.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.6.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 8.0.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.0.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.21.3
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.4
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.1.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.3
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 2.0.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.3.0
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-ASTRA1 1.1.1
+2023-03-31 18:26:11,861 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 4.1.0
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.5.0
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 1.1.0
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2023-03-31 18:26:11,877 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.0.0
+2023-03-31 18:26:11,877 [INFO] ThirdParty:841 - exiting critical section [change project]
+2023-03-31 18:26:12,033 [INFO] PinOutPanel:1499 - setPackage(No Configuration,No Configuration)
+2023-03-31 18:26:12,033 [INFO] PinOutPanel:1499 - setPackage(STM32F103RBTx,LQFP64)
+2023-03-31 18:26:12,361 [INFO] UtilMem:75 - Before build in PCC Used Memory: 292901200 Bytes (730857472)
+2023-03-31 18:26:12,580 [INFO] UtilMem:75 - After build in PCC Used Memory: 333795664 Bytes (730857472)
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,595 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2023-03-31 18:26:12,627 [INFO] CADModel:165 - CPN selected for project levelSTM32F103RBT6
+2023-03-31 18:26:12,627 [INFO] CADModel:114 - Register for checkConnection events
+2023-03-31 18:26:12,689 [INFO] OpenFileManager:328 - Restore cursor
+2023-03-31 18:27:08,487 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 299908384 Bytes (730857472)
+2023-03-31 18:27:09,956 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 315637024 Bytes (730857472)
+2023-03-31 18:27:11,722 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 352126536 Bytes (730857472)
+2023-03-31 18:27:11,972 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-03-31 18:27:11,972 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-03-31 18:27:11,972 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-03-31 18:27:11,972 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-03-31 18:27:11,972 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-03-31 18:27:11,972 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-03-31 18:27:11,972 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2023-03-31 18:27:12,268 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\license.tmp_save
+2023-03-31 18:27:12,347 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\license.tmp
+2023-03-31 18:27:12,409 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\gpio.tmp_save
+2023-03-31 18:27:12,503 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\gpio.tmp
+2023-03-31 18:27:12,612 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_it.c_save
+2023-03-31 18:27:12,909 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_it.c
+2023-03-31 18:27:12,909 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_it.h_save
+2023-03-31 18:27:12,987 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_it.h
+2023-03-31 18:27:13,003 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_hal_msp.c_save
+2023-03-31 18:27:13,128 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_hal_msp.c
+2023-03-31 18:27:13,128 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\system.tmp_save
+2023-03-31 18:27:13,190 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\system.tmp
+2023-03-31 18:27:13,206 [INFO] CodeEngine:311 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_hal_conf.h_save
+2023-03-31 18:27:13,284 [INFO] CodeEngine:335 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_hal_conf.h
+2023-03-31 18:27:13,315 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-03-31 18:27:13,315 [WARN] CodeGenerator:3754 - IP not found : null
+2023-03-31 18:27:13,331 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\main.h_save
+2023-03-31 18:27:13,425 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\main.h
+2023-03-31 18:27:13,440 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\main.c_save
+2023-03-31 18:27:13,550 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\main.c
+2023-03-31 18:27:14,284 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 250mS.
+2023-03-31 18:27:14,300 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-03-31 18:27:14,518 [INFO] ConfigFileManager:1483 - The Die is : DIE410
+2023-03-31 18:27:14,534 [INFO] ApiDbMcu:507 - Load IP Config File for FATFS
+2023-03-31 18:27:14,534 [INFO] ApiDbMcu:507 - Load IP Config File for FREERTOS
+2023-03-31 18:27:14,550 [INFO] ApiDbMcu:507 - Load IP Config File for USB_DEVICE
+2023-03-31 18:27:16,190 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1890mS.
+2023-03-31 18:27:16,190 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-03-31 18:27:16,190 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-03-31 19:41:41,356 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-03-31 19:41:55,508 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,453x169,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-03-31 19:42:16,503 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,453x169,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-03-31 19:42:22,785 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-03-31 19:42:28,192 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-03-31 19:43:45,885 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 537032160 Bytes (1068498944)
+2023-03-31 19:43:51,338 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 498891144 Bytes (1068498944)
+2023-03-31 19:43:53,401 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 592166224 Bytes (1068498944)
+2023-03-31 19:43:53,636 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-03-31 19:43:53,636 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-03-31 19:43:53,636 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-03-31 19:43:53,636 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-03-31 19:43:53,636 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-03-31 19:43:53,636 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-03-31 19:43:53,636 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-03-31 19:43:53,636 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2023-03-31 19:43:53,854 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\license.tmp_save
+2023-03-31 19:43:54,073 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\license.tmp
+2023-03-31 19:43:54,073 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\gpio.tmp_save
+2023-03-31 19:43:54,167 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\gpio.tmp
+2023-03-31 19:43:54,229 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_it.c_save
+2023-03-31 19:43:54,464 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_it.c
+2023-03-31 19:43:54,479 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_it.h_save
+2023-03-31 19:43:54,542 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_it.h
+2023-03-31 19:43:54,573 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_hal_msp.c_save
+2023-03-31 19:43:54,682 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_hal_msp.c
+2023-03-31 19:43:54,698 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\system.tmp_save
+2023-03-31 19:43:54,745 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\system.tmp
+2023-03-31 19:43:54,761 [INFO] CodeEngine:311 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_hal_conf.h_save
+2023-03-31 19:43:54,901 [INFO] CodeEngine:335 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_hal_conf.h
+2023-03-31 19:43:54,932 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-03-31 19:43:54,932 [WARN] CodeGenerator:3754 - IP not found : null
+2023-03-31 19:43:54,932 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\main.h_save
+2023-03-31 19:43:55,073 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\main.h
+2023-03-31 19:43:55,089 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\main.c_save
+2023-03-31 19:43:55,183 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\main.c
+2023-03-31 19:43:55,792 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 125mS.
+2023-03-31 19:43:55,792 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-03-31 19:43:56,011 [INFO] ConfigFileManager:1483 - The Die is : DIE410
+2023-03-31 19:43:57,339 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1547mS.
+2023-03-31 19:43:57,339 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-03-31 19:43:57,339 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-03-31 19:46:30,135 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 536965496 Bytes (744488960)
+2023-03-31 19:46:31,018 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 497398808 Bytes (744488960)
+2023-03-31 19:46:32,706 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 550591296 Bytes (744488960)
+2023-03-31 19:46:33,159 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-03-31 19:46:33,159 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-03-31 19:46:33,159 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-03-31 19:46:33,159 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-03-31 19:46:33,159 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-03-31 19:46:33,159 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-03-31 19:46:33,159 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-03-31 19:46:33,160 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2023-03-31 19:46:33,471 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\license.tmp_save
+2023-03-31 19:46:33,611 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\license.tmp
+2023-03-31 19:46:33,629 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\gpio.tmp_save
+2023-03-31 19:46:33,746 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\gpio.tmp
+2023-03-31 19:46:33,876 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_it.c_save
+2023-03-31 19:46:34,155 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_it.c
+2023-03-31 19:46:34,160 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_it.h_save
+2023-03-31 19:46:34,226 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_it.h
+2023-03-31 19:46:34,241 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_hal_msp.c_save
+2023-03-31 19:46:34,404 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_hal_msp.c
+2023-03-31 19:46:34,408 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\system.tmp_save
+2023-03-31 19:46:34,489 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\system.tmp
+2023-03-31 19:46:34,508 [INFO] CodeEngine:311 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_hal_conf.h_save
+2023-03-31 19:46:34,736 [INFO] CodeEngine:335 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_hal_conf.h
+2023-03-31 19:46:34,759 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-03-31 19:46:34,760 [WARN] CodeGenerator:3754 - IP not found : null
+2023-03-31 19:46:34,776 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\main.h_save
+2023-03-31 19:46:34,895 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\main.h
+2023-03-31 19:46:34,907 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\main.c_save
+2023-03-31 19:46:35,036 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\main.c
+2023-03-31 19:46:35,854 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 144mS.
+2023-03-31 19:46:35,856 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-03-31 19:46:36,319 [INFO] ConfigFileManager:1483 - The Die is : DIE410
+2023-03-31 19:46:38,365 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 2509mS.
+2023-03-31 19:46:38,366 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-03-31 19:46:38,368 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-03-31 19:46:47,330 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,453x169,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-03-31 19:46:58,060 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-03-31 19:47:01,289 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 678136448 Bytes (1073741824)
+2023-03-31 19:47:05,889 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 694616448 Bytes (1073741824)
+2023-03-31 19:47:07,353 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 731856208 Bytes (1073741824)
+2023-03-31 19:47:07,552 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-03-31 19:47:07,552 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-03-31 19:47:07,552 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-03-31 19:47:07,552 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-03-31 19:47:07,552 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-03-31 19:47:07,552 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-03-31 19:47:07,552 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-03-31 19:47:07,553 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2023-03-31 19:47:07,699 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\license.tmp_save
+2023-03-31 19:47:07,779 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\license.tmp
+2023-03-31 19:47:07,792 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\gpio.tmp_save
+2023-03-31 19:47:07,896 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\gpio.tmp
+2023-03-31 19:47:08,031 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_it.c_save
+2023-03-31 19:47:08,184 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_it.c
+2023-03-31 19:47:08,189 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_it.h_save
+2023-03-31 19:47:08,269 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_it.h
+2023-03-31 19:47:08,286 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_hal_msp.c_save
+2023-03-31 19:47:08,416 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_hal_msp.c
+2023-03-31 19:47:08,418 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\system.tmp_save
+2023-03-31 19:47:08,478 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\system.tmp
+2023-03-31 19:47:08,489 [INFO] CodeEngine:311 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_hal_conf.h_save
+2023-03-31 19:47:08,589 [INFO] CodeEngine:335 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_hal_conf.h
+2023-03-31 19:47:08,609 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-03-31 19:47:08,609 [WARN] CodeGenerator:3754 - IP not found : null
+2023-03-31 19:47:08,623 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\main.h_save
+2023-03-31 19:47:08,713 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\main.h
+2023-03-31 19:47:08,724 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\main.c_save
+2023-03-31 19:47:08,847 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\main.c
+2023-03-31 19:47:09,542 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 110mS.
+2023-03-31 19:47:09,546 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-03-31 19:47:09,784 [INFO] ConfigFileManager:1483 - The Die is : DIE410
+2023-03-31 19:47:11,437 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1891mS.
+2023-03-31 19:47:11,438 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 1mS.
+2023-03-31 19:47:11,441 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-03-31 19:49:31,893 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-03-31 19:50:26,750 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 434806736 Bytes (1073741824)
+2023-03-31 19:50:27,552 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 451560400 Bytes (1073741824)
+2023-03-31 19:50:29,066 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 510546568 Bytes (1073741824)
+2023-03-31 19:50:29,322 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-03-31 19:50:29,322 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-03-31 19:50:29,322 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-03-31 19:50:29,322 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-03-31 19:50:29,323 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-03-31 19:50:29,323 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-03-31 19:50:29,323 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2023-03-31 19:50:29,611 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\license.tmp_save
+2023-03-31 19:50:29,703 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\license.tmp
+2023-03-31 19:50:29,719 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\gpio.tmp_save
+2023-03-31 19:50:29,864 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\gpio.tmp
+2023-03-31 19:50:29,924 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_it.c_save
+2023-03-31 19:50:30,036 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_it.c
+2023-03-31 19:50:30,040 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_it.h_save
+2023-03-31 19:50:30,101 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_it.h
+2023-03-31 19:50:30,119 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_hal_msp.c_save
+2023-03-31 19:50:30,217 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_hal_msp.c
+2023-03-31 19:50:30,219 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\system.tmp_save
+2023-03-31 19:50:30,275 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\system.tmp
+2023-03-31 19:50:30,290 [INFO] CodeEngine:311 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_hal_conf.h_save
+2023-03-31 19:50:30,392 [INFO] CodeEngine:335 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_hal_conf.h
+2023-03-31 19:50:30,409 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-03-31 19:50:30,409 [WARN] CodeGenerator:3754 - IP not found : null
+2023-03-31 19:50:30,424 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\main.h_save
+2023-03-31 19:50:30,509 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\main.h
+2023-03-31 19:50:30,520 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\main.c_save
+2023-03-31 19:50:30,631 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\main.c
+2023-03-31 19:50:31,347 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 132mS.
+2023-03-31 19:50:31,350 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-03-31 19:50:31,720 [INFO] ConfigFileManager:1483 - The Die is : DIE410
+2023-03-31 19:50:33,169 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1818mS.
+2023-03-31 19:50:33,169 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-03-31 19:50:33,171 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-03-31 19:53:11,841 [INFO] NvicTabbedPanel:220 - Cannot restore the selected Tab for NVIC
+2023-03-31 19:53:32,947 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,453x169,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2023-03-31 19:55:39,817 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 511183648 Bytes (1073741824)
+2023-03-31 19:55:40,895 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 632993048 Bytes (1073741824)
+2023-03-31 19:55:42,504 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 498222744 Bytes (1073741824)
+2023-03-31 19:55:42,676 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-03-31 19:55:42,676 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-03-31 19:55:42,676 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-03-31 19:55:42,676 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-03-31 19:55:42,676 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-03-31 19:55:42,676 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-03-31 19:55:42,676 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2023-03-31 19:55:42,802 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\license.tmp_save
+2023-03-31 19:55:42,942 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\license.tmp
+2023-03-31 19:55:42,942 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\gpio.tmp_save
+2023-03-31 19:55:43,052 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\gpio.tmp
+2023-03-31 19:55:43,098 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_it.c_save
+2023-03-31 19:55:43,177 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_it.c
+2023-03-31 19:55:43,192 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_it.h_save
+2023-03-31 19:55:43,255 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_it.h
+2023-03-31 19:55:43,270 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_hal_msp.c_save
+2023-03-31 19:55:43,348 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_hal_msp.c
+2023-03-31 19:55:43,348 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\system.tmp_save
+2023-03-31 19:55:43,411 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\system.tmp
+2023-03-31 19:55:43,411 [INFO] CodeEngine:311 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_hal_conf.h_save
+2023-03-31 19:55:43,505 [INFO] CodeEngine:335 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_hal_conf.h
+2023-03-31 19:55:43,520 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-03-31 19:55:43,520 [WARN] CodeGenerator:3754 - IP not found : null
+2023-03-31 19:55:43,536 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\main.h_save
+2023-03-31 19:55:43,614 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\main.h
+2023-03-31 19:55:43,630 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\main.c_save
+2023-03-31 19:55:43,723 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\main.c
+2023-03-31 19:55:44,411 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 125mS.
+2023-03-31 19:55:44,411 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-03-31 19:55:44,723 [INFO] ConfigFileManager:1483 - The Die is : DIE410
+2023-03-31 19:55:45,989 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 1578mS.
+2023-03-31 19:55:45,989 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-03-31 19:55:45,989 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
