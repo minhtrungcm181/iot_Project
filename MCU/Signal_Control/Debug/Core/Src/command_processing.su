@@ -1,0 +1,4 @@
+../Core/Src/command_processing.c:20:9:request_ready	4	static
+../Core/Src/command_processing.c:25:6:request_processing	4	static
+../Core/Src/command_processing.c:30:10:get_request	4	static
+../Core/Src/command_processing.c:36:9:record	16	static

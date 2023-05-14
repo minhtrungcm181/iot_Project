@@ -1,0 +1,63 @@
+/*
+ * DHT.c
+ *
+ *  Created on: May 3, 2023
+ *      Author: Trand
+ */
+#include "DHT.h"
+#include "main.h"
+#define MAX_DHT_BUFFER	12
+
+extern UART_HandleTypeDef huart1;
+
+uint8_t dht_buffer[MAX_DHT_BUFFER];
+int idx_byte = 1;
+uint8_t data_ready = 0;
+
+uint8_t DHT_ready()
+{
+	return data_ready;
+}
+
+uint8_t* get_data()
+{
+	return dht_buffer;
+}
+
+void request_DHT()
+{
+	HAL_UART_Transmit(&huart1, (uint8_t*)"!DHT#", sizeof("!DHT#"), 1000);
+}
+
+uint8_t record_data(uint8_t c)
+{
+	if (idx_byte == 0)
+	{
+		if (c == '!'){
+			data_ready = 0;
+			idx_byte = 1;
+		}
+	}
+	else
+	{
+		if (c == '#')
+		{
+			idx_byte = 1;
+			data_ready = 1;
+		}
+		else
+		{
+			if (idx_byte == 10)
+			{
+				idx_byte = 1;
+				HAL_UART_Transmit(&huart1, (uint8_t*)"!ERROR#", sizeof("!ERROR#"), 1000);
+			}
+			else
+			{
+				dht_buffer[idx_byte] = c;
+				idx_byte ++;
+			}
+		}
+	}
+	return 0;
+}

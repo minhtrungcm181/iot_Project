@@ -1,0 +1,2 @@
+../Core/Src/physical_device.c:14:10:get_sendback	4	static
+../Core/Src/physical_device.c:20:6:set_state	16	static

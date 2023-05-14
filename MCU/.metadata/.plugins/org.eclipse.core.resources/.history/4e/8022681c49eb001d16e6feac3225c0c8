@@ -1,0 +1,146 @@
+/*
+ * MCU_Python_communication.c
+ *
+ *  Created on: Mar 30, 2023
+ *      Author: Trand
+ */
+
+#include "MCU_Python_communication.h"
+#include "command_processing.h"
+#include "physical_device.h"
+#include "main.h"
+#include "timer.h"
+//#include "DHT11.h"
+#include "DHT.h"
+#include <stdio.h>
+#include <string.h>
+
+typedef enum {
+	IDLE,
+	REQUEST_PROCESSING,
+	CONFORM_WAITING
+} System_State;
+
+typedef enum {
+	DHT,
+	LIGHT,
+	DEVICES,
+	NONE
+} Request_Type;
+
+extern UART_HandleTypeDef huart2;
+extern GPIO_TypeDef * LED_Port[];
+extern uint16_t LED_Pin[];
+extern TIM_HandleTypeDef htim4;
+extern ADC_HandleTypeDef hadc1;
+
+System_State state = IDLE;
+Request_Type req = NONE;
+uint8_t* request = NULL;
+uint8_t* data = NULL;
+uint8_t data_size = 0;
+uint32_t light_value = 0;
+
+uint8_t request_complete = 0;
+int resend = 0;
+uint8_t error_rq [11] = {'!','E','R', 'R', 'O', 'R', '_', 'R', 'Q', '#', '\0'};
+
+Request_Type Identify_request(char c){
+	switch (c)
+	{
+	case '1':
+		return DEVICES;
+	case '2':
+		return DHT;
+	case '3':
+		return LIGHT;
+	default:
+		return NONE;
+	}
+}
+
+void fsm()
+{
+	//DHT_ReadTempHum(&sensor_DHT);
+	switch(state)
+	{
+	case IDLE:
+		// LED Blinking
+		if (get_flag(0))
+		{
+			HAL_GPIO_TogglePin(LED_Port[0], LED_Pin[0]);
+			setTimer(0, 1000);
+		}
+
+		// Change state
+		if (request_ready())
+		{
+			HAL_GPIO_WritePin(LED_Port[0], LED_Pin[0], RESET);
+			request_processing();
+			state = REQUEST_PROCESSING;
+			request = get_request();
+			req = Identify_request(request[0]);
+		}
+		break;
+	case REQUEST_PROCESSING:
+		if (!resend){
+			switch(req){
+			case DEVICES:
+				set_state(request[2]);
+				data = get_sendback();
+				data_size = 3;
+				request_complete = 1;
+
+				break;
+			case DHT:
+				data = get_data_DHT();
+				data_size = 11;
+				request_complete = 1;
+				break;
+			case LIGHT:
+				data_size = sprintf((char*)data, "!L=%lu#", light_value);
+				request_complete = 1;
+				break;
+			case NONE:
+				data = error_rq;
+				data_size = 10;
+				request_complete = 1;
+				break;
+			}
+
+		}
+		if (req == NONE)
+			state = IDLE;
+		else
+			state = CONFORM_WAITING;
+		HAL_UART_Transmit(&huart2, data, data_size, 3000);
+		resend = 0;
+		setTimer(1, 3000);
+		break;
+	case CONFORM_WAITING:
+		if (request_ready())
+		{
+			request = get_request();
+			if (request[0] == 'O' && request[1] == 'K')
+			{
+				state = IDLE;
+				setTimer(1, 0);
+				request_processing();
+			}
+		}
+		if (get_flag(1))
+		{
+			state = REQUEST_PROCESSING;
+			resend = 1;
+		}
+		break;
+	}
+
+}
+
+void read_light_sensor(){
+	HAL_ADC_Start(&hadc1);
+	HAL_ADC_PollForConversion(&hadc1, 500);
+	light_value = HAL_ADC_GetValue(&hadc1);
+	HAL_ADC_Stop(&hadc1);
+}

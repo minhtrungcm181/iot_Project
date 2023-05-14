@@ -1,0 +1,12 @@
+main.c:89:5:main	1
+main.c:154:6:SystemClock_Config	3
+main.c:194:13:MX_TIM2_Init	4
+main.c:239:13:MX_USART1_UART_Init	2
+main.c:272:13:MX_USART2_UART_Init	2
+main.c:305:13:MX_USART3_UART_Init	2
+main.c:338:13:MX_GPIO_Init	1
+main.c:381:6:BlinkLED	1
+main.c:386:6:checkUSART	2
+main.c:395:6:HAL_TIM_PeriodElapsedCallback	2
+main.c:404:6:HAL_UART_RxCpltCallback	3
+main.c:421:6:Error_Handler	1

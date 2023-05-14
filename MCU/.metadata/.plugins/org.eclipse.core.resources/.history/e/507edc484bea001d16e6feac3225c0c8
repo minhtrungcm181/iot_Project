@@ -1,0 +1,154 @@
+/*
+ * MCU_Python_communication.c
+ *
+ *  Created on: Mar 30, 2023
+ *      Author: Trand
+ */
+
+#include "MCU_Python_communication.h"
+#include "command_processing.h"
+#include "physical_device.h"
+#include "main.h"
+#include "timer.h"
+#include "DHT11.h"
+//#include "DHT.h"
+#include <stdio.h>
+#include <string.h>
+
+typedef enum {
+	IDLE,
+	REQUEST_PROCESSING,
+	CONFORM_WAITING
+} System_State;
+
+typedef enum {
+	SENSOR,
+	DEVICES,
+	NONE
+} Request_Type;
+
+extern UART_HandleTypeDef huart2;
+extern GPIO_TypeDef * LED_Port[];
+extern uint16_t LED_Pin[];
+extern TIM_HandleTypeDef htim4;
+
+System_State state = IDLE;
+Request_Type req = NONE;
+uint8_t* request = NULL;
+uint8_t* data = NULL;
+uint8_t data_size = 0;
+extern DHT_Name sensor_DHT;
+
+uint8_t request_complete = 0;
+int resend = 0;
+uint8_t error_rq [11] = {'!','E','R', 'R', 'O', 'R', '_', 'R', 'Q', '#', '\0'};
+
+Request_Type Identify_request(char c){
+	switch (c)
+	{
+	case '1':
+		return SENSOR;
+	case '2':
+		return DEVICES;
+	default:
+		return NONE;
+	}
+}
+
+void fsm()
+{
+	switch(state)
+	{
+	case IDLE:
+		// LED Blinking
+		if (get_flag(0))
+		{
+			HAL_GPIO_TogglePin(LED_Port[0], LED_Pin[0]);
+			setTimer(0, 1000);
+		}
+
+		// Change state
+		if (request_ready())
+		{
+			HAL_GPIO_WritePin(LED_Port[0], LED_Pin[0], RESET);
+			//HAL_GPIO_WritePin(LED_Port[1], LED_Pin[1], SET);
+			request_processing();
+			state = REQUEST_PROCESSING;
+			request = get_request();
+			req = Identify_request(request[0]);
+		}
+		break;
+	case REQUEST_PROCESSING:
+//		if (resend || strsim(str, cmd0, 5))
+//		{
+//			HAL_UART_Transmit(&huart2, (uint8_t*)"!HelloWorld#", sizeof("!HelloWorld#"), 3000);
+//			state = CONFORM_WAITING;
+//			resend = 0;
+//			setTimer(1, 3000);
+//		}
+//		else
+//		{
+//			HAL_UART_Transmit(&huart2, (uint8_t*)"!Error RQ#", sizeof("!Error RQ#"), 3000);
+//			state = IDLE;
+//		}
+		if (!resend){
+			switch(req){
+			case DEVICES:
+				set_state(request[2]);
+				data = get_sendback();
+				data_size = 3;
+				request_complete = 1;
+
+				break;
+			case SENSOR:
+//				if (DHT_ready()){
+//					data = get_data();
+//					data_size = 12;
+//					request_complete = 1;
+//				}
+//				else if (get_flag(1)){
+//					request_DHT();
+//					setTimer(1, 2000);
+//				}
+				HAL_GPIO_WritePin(LED_Port[1], LED_Pin[1], SET);
+				DHT_ReadTempHum(&sensor_DHT);
+				data_size = sprintf((char*)data, "!H:%d_T:%d#", (int)(sensor_DHT.Humi*10) , (int)(sensor_DHT.Temp*10));
+				request_complete = 1;
+				break;
+			case NONE:
+
+				data = error_rq;
+				data_size = 10;
+				request_complete = 1;
+				break;
+			}
+
+		}
+		if (req == NONE)
+			state = IDLE;
+		else
+			state = CONFORM_WAITING;
+		HAL_UART_Transmit(&huart2, data, data_size, 3000);
+		resend = 0;
+		setTimer(1, 3000);
+		break;
+	case CONFORM_WAITING:
+		if (request_ready())
+		{
+			request = get_request();
+			if (request[0] == 'O' && request[1] == 'K')
+			{
+				state = IDLE;
+				setTimer(1, 0);
+				request_processing();
+			}
+		}
+		if (get_flag(1))
+		{
+			state = REQUEST_PROCESSING;
+			resend = 1;
+		}
+		break;
+	}
+
+}

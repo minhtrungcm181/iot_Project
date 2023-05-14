@@ -1,0 +1,40 @@
+2023-05-08 07:55:05,976 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 497193416 Bytes (847249408)
+2023-05-08 07:55:14,827 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 535863120 Bytes (847249408)
+2023-05-08 07:55:15,802 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 553560096 Bytes (847249408)
+2023-05-08 07:55:16,494 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: NVIC
+2023-05-08 07:55:16,494 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-05-08 07:55:16,494 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: USART
+2023-05-08 07:55:16,494 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: TIM1_8F1
+2023-05-08 07:55:16,494 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: SYS
+2023-05-08 07:55:16,494 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: GPIO
+2023-05-08 07:55:16,494 [INFO] BlockDiagram:2759 - set Specific Code input for plugin: RCC
+2023-05-08 07:55:16,494 [INFO] CodeGenerator:793 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.8.0.202302231600\\db\
+2023-05-08 07:55:17,515 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\license.tmp_save
+2023-05-08 07:55:17,844 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\license.tmp
+2023-05-08 07:55:18,064 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\gpio.tmp_save
+2023-05-08 07:55:18,378 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\gpio.tmp
+2023-05-08 07:55:18,849 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_it.c_save
+2023-05-08 07:55:19,336 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_it.c
+2023-05-08 07:55:19,384 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_it.h_save
+2023-05-08 07:55:19,636 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_it.h
+2023-05-08 07:55:19,714 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_hal_msp.c_save
+2023-05-08 07:55:20,155 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\stm32f1xx_hal_msp.c
+2023-05-08 07:55:20,187 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\system.tmp_save
+2023-05-08 07:55:20,375 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\MXTmpFiles\system.tmp
+2023-05-08 07:55:20,438 [INFO] CodeEngine:311 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_hal_conf.h_save
+2023-05-08 07:55:20,675 [INFO] CodeEngine:335 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\stm32f1xx_hal_conf.h
+2023-05-08 07:55:20,864 [WARN] IPConfigManager:3431 - IP not found : TIM
+2023-05-08 07:55:20,864 [WARN] CodeGenerator:3754 - IP not found : null
+2023-05-08 07:55:20,942 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\main.h_save
+2023-05-08 07:55:21,115 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Inc\main.h
+2023-05-08 07:55:21,146 [INFO] CodeEngine:255 - oldGeneratedFile, E:\IoT\Assignment\MCU\Signal_Control\Core\Src\main.c_save
+2023-05-08 07:55:21,476 [INFO] CodeEngine:279 - Generated code: E:\IoT\Assignment\MCU\Signal_Control\Core\Src\main.c
+2023-05-08 07:55:23,930 [INFO] ProjectBuilder:2996 - Time for Copy HAL[1] : 1069mS.
+2023-05-08 07:55:23,945 [INFO] ProjectBuilder:4304 - Project Generator version: 3.19.2
+2023-05-08 07:55:24,858 [INFO] ConfigFileManager:1483 - The Die is : DIE410
+2023-05-08 07:55:24,905 [INFO] ApiDbMcu:507 - Load IP Config File for FATFS
+2023-05-08 07:55:25,000 [INFO] ApiDbMcu:507 - Load IP Config File for FREERTOS
+2023-05-08 07:55:25,079 [INFO] ApiDbMcu:507 - Load IP Config File for USB_DEVICE
+2023-05-08 07:55:30,032 [INFO] ProjectBuilder:4505 - Time for Generating toolchain IDE Files: 6087mS.
+2023-05-08 07:55:30,032 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.
+2023-05-08 07:55:30,047 [INFO] ProjectBuilder:2867 - Time for Copy CMSIS : 0mS.

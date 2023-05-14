@@ -1,0 +1,4 @@
+DHT.c:21:9:DHT_ready	1
+DHT.c:26:10:get_data_DHT	1
+DHT.c:31:6:request_DHT	1
+DHT.c:38:9:record_data_DHT	6
